@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap");
+:root {
+  --primaryColor: #1b3b36;
+  --background: #313f38;
+  --secondaryColor: #fcd043;
+  --fontColor: #fff;
+  --transparency: rgba(49, 63, 56, 0.48);
+  --error: #b03e3e;
+  --SColor: #dc9b39;
+  --buttonOutline: rgba(255, 252, 246, 1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#container {
+  overflow: hidden;
+}
+/* Hero-Section */
+#HeroSection {
+  background-color: var(--background);
+  height: 40vh;
+  width: 100vw;
+}
+.HeroSection {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.HeroSection-2 h1 {
+  font-family: "EB Garamond", serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Nav-Section */
+
+li {
+  list-style: none;
+  margin-left: 80px;
+}
+.HeroSection {
+  height: 40vh;
+  width: 100vw;
+  color: var(--fontColor);
+}
+.Star {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 150px;
+  padding: 10px 10px;
+  height: 40px;
+  border: 1px solid var(--buttonOutline);
+  border-radius: 40px;
+}
+.Star img {
+  width: 20px;
+  height: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.Default-btn {
+  width: 50px;
+  height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span {
+  color: var(--secondaryColor);
+}
+.info {
+  line-height: 1.7em;
+  margin-right: 90px;
+}
+
+/* Hero-2 Section */
+.Img-container {
+  height: 60vh;
+  width: 100vw;
+  background-color: var(--background);
+  position: relative;
+  padding: 20px;
+}
+.CoverImg {
+  height: inherit;
+  width: inherit;
+  padding: 20px;
+}
+
+#x {
+  height: 15vh;
+  background-color: var(--background);
+}
+
+/* Cover Image Button Section */
+.btn {
+  display: flex;
+  position: absolute;
+  top: 10.5%;
+  left: 53.2%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    rgba(49, 63, 56, 0.48);
+  opacity: 0.9;
+}
+.btn:first-child,
+.btn:nth-child(2) {
+  color: var(--fontColor);
+  font-weight: bold;
+}
+.btn button {
+  height: 70px;
+  width: 200px;
+  padding: 0px;
+}
+
+.btn img {
+  height: 8px;
+}
+#ci {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+#co {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+}
+.br {
+  background-color: var(--secondaryColor);
+  font-weight: bold;
+  color: #000;
 }
