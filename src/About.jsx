@@ -22,20 +22,20 @@ const About = () => {
 
 
     <div className='AboutContent'>
-        <div className='AboutText'>
+      <div className='AboutText'>
         <h1 className='text-8xl'><span>ABOUT</span>
         <br />US</h1>
         </div>
-      <div className='About-Text'>
-      <h2 className='text-3xl pt-20 pb-12'>High Quality</h2>
-        <p>The five-star Bank Hotel was reopened to visitors 
-        in 2016. The building was renovated and 
-        modernized to meet the expectations of the most
-        demanding guests. We offer luxurious rooms, 
-        numerous facilities, and exceptional service. 
-        </p>
-      </div>
+        <div className='About-Text'>
+        <h2 className='text-3xl pt-20 pb-12'>High Quality</h2>
+          <p>The five-star Bank Hotel was reopened to visitors 
+          in 2016. The building was renovated and 
+          modernized to meet the expectations of the most
+          demanding guests. We offer luxurious rooms, 
+          numerous facilities, and exceptional service. 
+          </p>
         </div>
+      </div>
   </div>
     
     
