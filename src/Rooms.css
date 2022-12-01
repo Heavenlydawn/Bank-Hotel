@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.RoomContainer{
+    height:100vh;
+    width:100vw;
+    margin-top:10%;
+    position: relative;
+}
+
+.RoomsIntro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    
+}
+.intro2{
+    width:15vw;
+    font-weight: bold;
+    position: absolute;
+    top:2%;
+    left:80%;
+}
+
+.RoomsImgContainer{
+    margin-top:10%;
+    padding:0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Room-Content{
+    flex-direction: column;
+    height:40vh;
+    width:23vw;
+    padding:50px;
+}
+.Room-Content h1{
+    font-family: "EB Garamond", serif;
+}
+
+/* Resizing img2 */
+.img2 img{
+    height:450px;
+}
+
+.BookRoom img{
+    width:120px;
+    height:120px;
+}
+/* Positioning */
+.BookRoom{
+    position: absolute;
+    top:90%;
+    left:83%;
+}
+.Star-btn{
+    position: absolute;
+    top:42%;
+}
+
+
+
+/* Button */
+.Star-btn {
+    display: flex;
+    width: 150px;
+    padding: 10px 10px;
+    height: 40px;
+    border: 1px solid rgba(49, 63, 56, .3);
+    border-radius: 40px;
+  }
+  .Star-btn img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .Btn-Dir{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:90%;
+    left:6%;
+  }
+
+ 

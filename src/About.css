@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x:clip;
 }
 
 /* About Hero Section */
@@ -35,7 +36,7 @@
 /* About Img Side Section */
 .imgSideSection {
   width: 60vw;
-  height:100vh;
+  height: 100vh;
   display: flex;
 }
 .SideSection {
@@ -43,47 +44,45 @@
   margin-top: 20px;
 }
 
-
 /* Positioning Images */
 .sideImg {
   position: absolute;
   left: 80%;
 }
 
-.BhLogo{
+.BhLogo {
   position: absolute;
   top: 3%;
   left: 73%;
 }
-.IconImg{
-    position: absolute;
-    left:77%;
-    top:9%;
+.IconImg {
+  position: absolute;
+  left: 77%;
+  top: 9%;
 }
 
-.ellipse{
-    position: absolute;
-    top:0%;
-    left:7.5%;
-    height:70vh;
+.ellipse {
+  position: absolute;
+  top: 0%;
+  left: 7.5%;
+  height: 70vh;
+}
+.Vector {
+  position: absolute;
+  top: 0;
+  left: 36.8%;
+}
+.vectorLine {
+  position: absolute;
+  height: 100vh;
+  left: 72%;
+  top: 0%;
+}
 
-}
-.Vector{
-    position: absolute;
-    top:0;
-    left:36.8%;
-}
-.vectorLine{
-    position: absolute;
-    height:100vh;
-    left:72%;
-    top:0%;
-}
-
-.about-btn{
-    position: absolute;
-    top:70%;
-    left:80%;
+.about-btn {
+  position: absolute;
+  top: 70%;
+  left: 80%;
 }
 /* resizing Image */
 .IconImg img {
@@ -91,44 +90,42 @@
   height: 25px;
 }
 
-/* !Bringing About Image in front of the Ellipse */
-.imgContainer img{
-    width:500px;
-    height:600px;
+/* ! DO NOT FORGET TO Bring About Image in front of the Ellipse */
+.imgContainer img {
+  width: 500px;
+  height: 600px;
 }
-
 
 /* About Content  Section*/
-.AboutContent{
-    display: flex;
-    justify-content: start;
-    align-content: flex-end;
-    flex-direction:column;
-    color:var(--fontColor);
-    
+.AboutContent {
+  display: flex;
+  justify-content: start;
+  align-content: flex-end;
+  flex-direction: column;
+  color: var(--fontColor);
 }
 
-.AboutContent h1{
-    font-family:"EB Garamond", serif;
+.AboutContent h1 {
+  font-family: "EB Garamond", serif;
 }
-.AboutContent h2{
-    font-family:"EB Garamond", serif;
-}
-
-.AboutContent p{
-    width:19.5vw;
-    text-align: start;
-    line-height: 1.5em;
+.AboutContent h2 {
+  font-family: "EB Garamond", serif;
 }
 
-.AboutText{
-    position: absolute;
-    left:30%;
-    top:30%;
-    text-align:end;
+.AboutContent p {
+  width: 19.5vw;
+  text-align: start;
+  line-height: 1.5em;
 }
 
-.About-Text{
+.AboutText {
   position: absolute;
-  top:55%;
+  left: 30%;
+  top: 30%;
+  text-align: end;
+}
+
+.About-Text {
+  position: absolute;
+  top: 55%;
 }

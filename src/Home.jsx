@@ -8,7 +8,7 @@ import Vector from "./images/Vector 4.svg";
 
 const Home = () => {
   return (
-    <div id="container">
+    <div id="container overflow-x-clip">
       <div id="HeroSection" className="HeroSection flex">
         <header className="mx-8 w-screen">
           <nav className="w-full flex justify-between align-center my-5 ">
@@ -47,7 +47,7 @@ const Home = () => {
               <img className="Default-btn" alt="button" src={ButtonDefault} />
             </div>
           </div>
-          {/* Hotel sections listing */}
+          {/* Hotel listing */}
           <div className="hotelSections my-5">
             <div className="flex justify-between">
               <p>
@@ -68,7 +68,7 @@ const Home = () => {
           <div>
             <button>
               CHECK IN <img id="ci" alt="arrow-direction-down" src={Vector} />
-            </button>{" "}
+            </button>
           </div>
           <div>
             <button>
