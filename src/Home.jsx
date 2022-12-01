@@ -82,14 +82,14 @@ const Home = () => {
       </div>
       {/* contact with address */}
       <div id="x">
-        <div className="con flex justify-between px-10 text-white text-xl mb-5">
+        <div className="con flex justify-between px-10 text-white text-2xl mb-5">
           <p className="text-amber-400">
             <u>+38 032 297 50 20</u>
           </p>
           <p>ART & CONGRESS</p>
         </div>
 
-        <div className="h flex justify-between">
+        <div className="flex justify-between text-xl">
           <p className="text-white px-10">
             <u>8 LYSTOPADOVOHO CHYNU,LVIV</u>
           </p>
